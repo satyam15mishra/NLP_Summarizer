@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown</title>
+</head>
+<body>
+<form name = titles method = "post" action = "/page">
+<select name= titles method="get" action="/page">
+    {% for title in titles %}
+    <option value= "{{title}}" SELECTED>{{title}}</option>"
+    {% endfor %}
+    <input type="submit" value="Submit">
+</select>
+</form>
+
+</select>
+</body>
+</html>
